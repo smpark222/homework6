@@ -10,8 +10,8 @@ public class ExamVariousArray {
 			System.out.println("3. 학생 총점, 평균값 구하기");
 			System.out.println("4. 5층 아파트의 거주자 숫자 구하기");
 			System.out.println("5. 겹치치 않는 숫자 10개 입력받기");
-			System.out.println("6. 프로그램 종료");
-			System.out.println("원하는 메뉴는>> ");
+			System.out.println("6. 프로그램 종료하기");
+			System.out.println("원하는 메뉴는 >> ");
 			String input = input();
 			int inputNum = Integer.parseInt(input);
 
