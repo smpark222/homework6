@@ -33,10 +33,10 @@ public class StudentScore {
 		}
 
 		for (int i = 0; i < 3; i++) {
-			System.out.printf("%s ÃÑÁ¡Àº %dÁ¡ÀÌ°í, Æò±ÕÀº %.1fÀÔ´Ï´Ù.\n", subject[i],suball[i],subavg[i]);
+			System.out.printf("%s ÃÑÁ¡Àº %dÁ¡ÀÌ°í, Æò±ÕÀº %.1fÀÔ´Ï´Ù.\n", subject[i], suball[i], subavg[i]);
 		}
 		for (int i = 0; i < 5; i++) {
-			System.out.printf( "%d¹ø ÇÐ»ýÀÇ ÃÑÁ¡Àº %d, Æò±ÕÀº %.1fÀÌ´Ù.\n",i+1,stuall[i],stuavg[i]);
+			System.out.printf("%d¹ø ÇÐ»ýÀÇ ÃÑÁ¡Àº %d, Æò±ÕÀº %.1fÀÌ´Ù.\n", i + 1, stuall[i], stuavg[i]);
 		}
 	}
 }
